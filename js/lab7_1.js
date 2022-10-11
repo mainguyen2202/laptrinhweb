@@ -9,7 +9,7 @@
 let boxParent = document.getElementById("boxParent");
 
 var lists = [];
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 64; i++) {
     lists.push(i+1);
 }
 const randoms = shuffle(lists);
@@ -40,7 +40,7 @@ function creategrid() {
         for (var j = 0; j < 8; j++) {
             var box = document.createElement('div');
             box.className = 'box';
-            box.innerHTML = `<button onclick="changeColor(${randoms[vitri]})" class="btn-${randoms[vitri]}">${randoms[vitri]}</button>`;
+            box.innerHTML = `<button onclick="changeColor(${randoms[vitri]})" class="btn" id="btn-${randoms[vitri]}">${randoms[vitri]}</button>`;
             rows.appendChild(box);
             vitri ++;
         }
@@ -56,27 +56,17 @@ function change() {
 
 creategrid();
 
-var click = 0;
-function changeColor(temp) {
-    console.log(temp);//print
-   var a= $("div").children("button");
-   var b = a.querySelector(".btn-"+temp);
-   console.log(b);
-    if (temp == (click+1)){
-        // window.alert(temp);
-        //remove css html javascript
-        // select div element which is the parent
-        // select first child(h2) and apply one
-        // or more css property at a time
-        // $("div").children("box").children("btn-"+temp).css({
-        //     "backgroundColor": "black", "color": "white" });
-
-        // apply one property at a time, use
-        // property name just like css and
-        // then select second child element(p)
-        $("div").children("button").children("btn-"+temp).css("background-color", "red");
-        // $("div").children("box").children("btn-"+temp).css("color", "white");
+var before = 0;
+function changeColor(click) {
+    console.log("before",before);//print
+    console.log("click",click);//print
+    const element = document.getElementById("btn-"+click);
+    if (click == (before+1)){
+        element.className = "newStyle";
+        before = click;
+        console.log(" > before",before);//print
+    }else{
+    //     element.className = "myStyle";
+    //     // window.alert("Chọn sai số nhấn không liền kề "+ before);
     }
-    click = temp;
 }
-
