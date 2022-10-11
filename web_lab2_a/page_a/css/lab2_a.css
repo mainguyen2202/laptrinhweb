@@ -1,0 +1,371 @@
+body {
+    font-family: Verdana, Tahoma, Gabriola, Serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    color: black;
+
+    background: white;
+    line-height: 1rem;
+    /*font bao nhiêu thì line-height bấy nhiêu*/
+}
+
+a {
+    text-decoration: none;
+
+}
+
+p {
+}
+
+#page {
+
+}
+
+#page .container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#page #section_normal_1 {
+    background: white;
+    border-bottom: 4px solid #d9d9d9;
+    height: 80px;
+}
+
+#page #section_normal_1 .alpha {
+    float: left;
+
+    width: 50%;
+    padding-top: 26px;
+
+
+}
+
+#page #section_normal_1 .omega {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+#page #section_normal_1 .omega > a, #page #section_normal_1 .omega > div {
+
+    float: right;
+}
+
+#page #section_normal_1 .omega .htext_style {
+    height: 22px;
+    padding-top: 35px;
+    padding-right: 10px;
+}
+
+#page #section_normal_1 .omega .htext_style .editContent {
+    /*color: ;*/
+    /* width: ;*/
+}
+
+#page #section_normal_1 .omega .slow_fade {
+    padding-right: 10px;
+
+}
+
+#page #section_normal_1 .omega .slow_fade:first-of-type {
+    padding-right: 10px;
+    /*vi tri dau tien*/
+
+    padding-top: 27px;
+}
+
+#page #section_normal_1 .omega .slow_fade:last-of-type {
+    padding-right: 10px;
+    /*vi tri dau tien*/
+
+    padding-top: 27px;
+}
+
+#page #section_normal_1 .omega .slow_fade:nth-of-type(2) {
+    padding-right: 10px;
+    padding-top: 27px;
+
+    /*    thành phần thứ 1
+first-of-type
+nth-of-type(2)
+nth-of-type(3)
+last-of-type
+
+*/
+}
+
+/*header*/
+/*#page #section_normal_4_2 */
+#page #section_normal_4_2 {
+
+    height: 670px;
+    background: black;
+}
+#page #section_normal_1 .pix_text{
+    color: #ABABAB;
+}
+#page #section_normal_4_2 .container .columns .pix_container {
+    float: left;
+    width: 39%;
+}
+#page #section_normal_4_2 .container{
+    padding-top: 87px;
+}
+#page #section_normal_4_2 .container .columns .pix_container .img_style {
+    height: 482px;
+}
+
+#page #section_normal_4_2 .container .columns .omega {
+    float: right;
+    /*height: 446px;*/
+    float: right;
+    width: 50%;
+}
+
+#page #section_normal_4_2 .container .columns .editContent1 {
+    color: #2dc0e8;
+    font-size: 36px;
+}
+
+#page #section_normal_4_2 .container .columns .editContent2 {
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 1.3;
+    font-weight: bold;
+    /*    khoảng cách dòng giữa các chữ*/
+}
+
+#page #section_normal_4_2 .container .columns .editContent {
+    color: #ABABAB;
+    line-height: 1.8;
+    font-size: 16px;
+    padding-bottom: 20px;
+
+}
+
+
+#page #section_normal_4_2 .omega .pix_button {
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+
+        background: #2dc0e8;
+        box-shadow: 0 5px #397888;
+        border-radius: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    width: 320px;
+    height: 90px;
+    padding: 15px 15px 15px 15px;
+
+}
+
+/*What our awesome clients say*/
+#page #section_normal_6 {
+    background: #EEEEEE;
+    margin-top: -24px;
+    height: 400px;
+    box-shadow: 1px 3px 1px #c2c2c1;
+}
+
+#page #section_normal_6 .container .L1_style {
+    padding-top: 50px;
+    text-align: center;
+    color: #4f4d4d;
+    font-size: 24px;
+}
+
+#page #section_normal_6 .container .L2_style {
+
+    text-align: center;
+    /*color: #c9c8c8;*/
+    /*font-size: 16px;*/
+
+    line-height: 1.6;
+    color: #ABABAB;
+    font-size: 16px;
+}
+
+
+/*ALPHA*/
+#page #section_normal_6 .alpha {
+    background: #ffffff;
+    box-shadow: 1px 3px 1px #c2c2c1;
+    width: 580px;
+    height: 150px;
+    border-radius: 10px;
+    /*margin-top: 75px;*/
+    width: 49%;
+    float: left;
+    margin-top: 55px;
+
+
+}
+
+#page #section_normal_6 .alpha .b_style {
+    background: #d2d2d2;
+    width: 120px;
+    height: 150px;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+#page #section_normal_6 .alpha .txt_style {
+    /*background: #ffffff;*/
+    float: right;
+    width: 450px;
+}
+
+#page #section_normal_6 .alpha .b_style .logo_style {
+
+    margin-top: 30%;
+    margin-left: 20%;
+
+}
+
+#page #section_normal_6 .alpha .logo_style {
+    border-radius: 50px;
+}
+
+#page #section_normal_6 .alpha .txt_style .editContent {
+    padding-top: 20px;
+    line-height: 1.6;
+    color: #ABABAB;
+    font-size: 16px;
+    padding-bottom: 5px;
+
+}
+
+#page #section_normal_6 .alpha .txt_style .pix_text {
+    color: #2dc0e8;
+    font-size: 16px;
+
+}
+
+/*OMEGA*/
+
+#page #section_normal_6 .omega {
+    background: #ffffff;
+    box-shadow: 1px 3px 1px #c2c2c1;
+    width: 580px;
+    height: 150px;
+    border-radius: 10px;
+    float: right;
+    width: 49%;
+    margin-top: 55px;
+}
+
+#page #section_normal_6 .omega .b_style {
+    background: #d2d2d2;
+    width: 120px;
+    height: 150px;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+#page #section_normal_6 .omega .txt_style {
+    /*background: #ffffff;*/
+    float: right;
+    width: 450px;
+}
+
+#page #section_normal_6 .omega .b_style .logo_style {
+
+    margin-top: 30%;
+    margin-left: 20%;
+
+}
+
+#page #section_normal_6 .omega .logo_style {
+    border-radius: 50px;
+}
+
+#page #section_normal_6 .omega .txt_style .editContent {
+    padding-top: 20px;
+    line-height: 1.6;
+    color: #ABABAB;
+    font-size: 16px;
+    padding-bottom: 5px;
+
+}
+
+#page #section_normal_6 .omega .txt_style .pix_text {
+    color: #2dc0e8;
+    font-size: 16px;
+
+}
+
+
+/*section_agency_5*/
+#page #section_agency_5 .container {
+    text-align: center;
+    margin-top: 85px;
+}
+
+#page #section_agency_5 .f1_style {
+    color: #599967;
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+
+#page #section_agency_5 .f2_style {
+    line-height: 1.6;
+    color: #ABABAB;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+#page #section_agency_5 .second_link {
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #5ba26a;
+    width: 320px;
+    height: 90px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#page #section_agency_5 .slow_fade {
+    color: #599967;
+    line-height: 90px;
+}
+
+#page #section_agency_5 .rights_st {
+    line-height: 1.6;
+    color: #ABABAB;
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+#page #section_agency_5 .pixfort_st {
+    font-weight: bold;
+    color: #599967;
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+#page #section_agency_5 .clearfix {
+    padding-top: 20px;
+}
+
+#page #section_agency_5 .pix_inline_block {
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+

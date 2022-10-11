@@ -1,0 +1,425 @@
+body{
+    font-family: Verdana, Tahoma, Gabriola, Serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background: #F3F3F3;
+    line-height: 1rem;
+    /*font bao nhiêu thì line-height bấy nhiêu*/
+}
+a{
+    text-decoration: none;
+
+
+    color: #7F7F7F;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+ul{
+    list-style-type: none;
+}
+p{
+    line-height: 1.6;
+    /*color: #ABABAB;*/
+    font-size: 16px;
+}
+#page{
+
+}
+#page .container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/*Logo*/
+#page #section_text_2 {
+    height: 125px;
+    background: #F3F3F3;
+}
+#page #section_text_2 .container{
+    padding-top: 45px;
+}
+#page #section_text_2 .alpha{
+    float: left;
+}
+#page #section_text_2 .omega{
+    float: right;
+    background: #F77825;
+    border-radius: 2px;
+
+    /*width: 155px;*/
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+}
+
+
+#page #section_text_2 .orange_bg{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px !important;
+    padding: 0px 0px !important;
+    color: white;
+
+
+}
+#page #section_text_2 .extra_small_padding{
+    width: 175px;
+    height: 45px;
+}
+/*Menu*/
+
+#page #section_header_1{
+    height: 103px;
+    background: #ffffff;
+}
+#page #section_header_1 .right_socials {
+    float: right;
+
+}
+
+
+#page #section_header_1 .right_socials li {
+    padding-top: 40px;
+    float: left;
+    margin-left: 40px;
+}
+
+
+
+#page #section_header_1 #navbar-collapse-02  {
+    margin-left: -100px;
+}
+#page #section_header_1 #navbar-collapse-02  a{
+    padding: 60px 50px;
+}
+
+#page #section_header_1 #navbar-collapse-02  li{
+    /*cách này cũng được chỉ cần id thôi*/
+    float: left;
+    padding-top: 40px;
+}
+
+
+#page #section_header_1 .right_socials {
+    float: right;
+
+}
+#page #section_header_1 .bottom-icons{
+    margin-top: -60px;
+}
+#page #section_header_1 .right_socials{
+    padding-top: 50px;
+}
+#page #section_header_1 .light_gray{
+    margin-left: -90px;
+}
+
+/*section_slider*/
+
+/*1180*/
+/*470*/
+
+#page #section_slider {
+    height: 666px;
+}
+#page #section_slider .carousel-inner .item .hinh {
+    width: 1180px;
+    height: 470px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+#page #section_slider .carousel-inner .item .carousel-caption{
+    color: #ffffff;
+    margin-top: -120px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/*main 1*/
+#page #section_gym_4 {
+    height:  590px;
+    background: white;
+
+}
+
+#page #section_gym_4 .top_padding{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1rem;
+    flex-flow: row wrap;
+}
+#page #section_gym_4 .container{
+    /*margin-right: auto;*/
+    margin-left: 20%;
+}
+#page #section_gym_4 .one-third{
+    flex: 1 0;
+    /*background-color: green;*/
+    /*margin-left: 1rem;*/
+    /*margin-bottom: 1rem;*/
+    /*padding: 1rem;*/
+    /*margin-left: 60px;*/
+    margin-top: 100px;
+
+    padding: 10px;
+    /*text-align: center;*/
+}
+
+
+
+
+
+#page #section_gym_4 .top_padding .logo_style{
+    border-radius:100px ;
+}
+#page #section_gym_4 .top_padding .part_st{
+    text-align: center;
+}
+#page #section_gym_4 .top_padding .gym_st{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+
+
+}
+#page #section_gym_4 .top_padding .gym_text{
+
+
+    line-height: 1.6;
+    color: #ABABAB;
+    font-size: 16px;
+    margin-bottom: 50px;
+    width: 260px;
+    margin-left: 70px;
+}
+#page #section_gym_4 .top_padding .link_3_btn{
+
+
+    background: #F77825;
+
+    border-radius: 2px;
+
+    padding: 12px 20px;
+    cursor: pointer;
+
+}
+#page #section_gym_4 .slow_fade{
+
+    color: white;
+    font-size: 16px !important;
+    font-weight: normal;
+}
+
+/*section_intro_title*/
+#page #section_intro_title{
+    /* width: 600px; */
+    /*background: #F3F3F3;*/
+    /*height: 600px;*/
+}
+
+
+
+#page #section_intro_title .container {
+    display: flex;
+    justify-content: space-between;
+    /*margin-left: -1rem;*/
+    flex-flow: row wrap;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#page #section_intro_title .one-third {
+    flex: 1 0;
+    background-color: #ffffff;
+    margin-left: 1rem;
+    margin-bottom: 90px;
+    /*padding: 1rem;*/
+    border: 3px solid #DDDDDD;
+    height: 500px;
+    border-radius: 3px;
+}
+#page #section_intro_title .flat_pricing{
+    text-align: center;
+}
+#page #section_intro_title .big_title{
+    font-size: 50px;
+    /*padding-bottom: 50px;*/
+}
+#page #section_intro_title .blue_text{
+    color: #2DC0E8;
+}
+#page #section_intro_title .orange{
+    color: #F77825;
+}
+#page #section_intro_title .light_gray_a{
+    font-size: 20px;
+    color: #999999;
+    margin-top: -50px;
+    padding-bottom: 40px;
+}
+#page #section_intro_title .flat_pricing_list .pix_text{
+    line-height: 1.6;
+    color: #ABABAB;
+    font-size: 20px;
+    padding-bottom: 30px;
+    margin-left: -30px;
+}
+#page #section_intro_title .pix_button{
+    border-radius: 2px;
+    padding: 20px 20px;
+    cursor: pointer;
+    color: white;
+    margin-bottom: -100px;
+}
+#page #section_intro_title .blue_bg{
+    background: #2DC0E8;
+}
+#page #section_intro_title .orange_bg{
+    background: #F77825;
+}
+
+
+/*form*/
+#page #section_party_3{
+    background: #191919;
+    height: 730px;
+
+}
+#page #section_party_3 .container{
+    margin-right: auto;
+    margin-left: auto;
+}
+#page #section_party_3 .text_input{
+    margin-top: 90px;
+    border: 2px dashed  white;
+    height: 553px;
+    width: 560px !important;
+    background: #000000;
+    text-align: center;
+    float:  left;
+    margin-left: 27%;
+
+}
+#page #section_party_3 .headtext_style{
+    color: white;
+    font-size: 36px;
+    padding-top: 65px;
+    padding-bottom: 40px;
+}
+#page #section_party_3 .subtext_style{
+    line-height: 1.6;
+    color: #ABABAB;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+#square {
+    text-align: center;
+    width: 100px;
+    height: 10px;
+    background: #2A80EB;
+    margin-left: 230px;
+    margin-bottom: 40px;
+
+}
+input[type=text],[type=email] {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    height: 65px;
+    font-size: 18px;
+}
+#page #section_party_3 #contact_form .subscribe_btn{
+    background-color: #2A80EB;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 90%;
+    height: 65px;
+    font-size: 18px;
+
+
+}
+
+
+
+/*footer*/
+#page #section_party_4{
+    height: 85px;
+    background: #000000;
+}
+#page #section_party_4 .alpha{
+    line-height: 1.6;
+    color: #ABABAB;
+    font-size: 16px;
+    margin-bottom: 40px;
+    float: left;
+    width: 49%;
+    margin-top: 25px;
+}
+#page #section_party_4 .pixfort_st{
+    color:#2A80EB ;
+    font-weight: bold;
+}
+
+#page #section_party_4 .omega{
+    line-height: 1.6;
+    color: #ABABAB;
+    font-size: 16px;
+    float: right;
+    width: 49%;
+}
+#page #section_party_4 .omega .socbuttons{
+    margin-top: 20px;
+}
+#page #section_party_4 .omega .bottom-icons li{
+    float: left;
+    margin-left: 10px;
+}
+#page #section_party_4 .omega .soc_icons{
+    margin-top: -45px;
+    margin-left: 400px;
+
+}
+
+#page #section_party_4 .omega .likes_st{
+    margin-left: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
