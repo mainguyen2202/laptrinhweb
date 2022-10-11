@@ -1,0 +1,52 @@
+nav #menu {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background: #0dcaf0;*/
+    height: 45px;
+    border-bottom: 2px solid #8B0000;
+    border-left: 7px solid #8B0000;
+}
+
+mav #menu .item {
+    font-weight: 600;
+
+
+}
+
+nav #menu .item a {
+    text-decoration: none;
+    color: black;
+}
+
+nav #menu .item a:hover {
+    color: white;
+}
+
+nav #menu .item:hover  {
+    background: #8B0000;
+    cursor: pointer;
+}
+nav #menu .item:hover a, nav #menu .item:hover span{
+    color: white;
+}
+
+
+nav #menu .item .dr-item {
+    position: absolute;
+    margin-left: -7px;
+    margin-top: 11px;
+    background: #0dcaf0;
+}
+nav #menu .item:hover .dr-item{
+    display: block !important;
+}
+nav #menu .item >.dr-item >.sub-item:first-of-type {
+border-top: 2px solid #8B0000;
+}
+
+nav #menu .item .dr-item .sub-item {
+    border-bottom: 2px solid #c1c1c1;
+    padding-left: 16px !important;
+
+}
