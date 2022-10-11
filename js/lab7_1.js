@@ -1,18 +1,21 @@
-// for (i = 0; i < 64; i++) {
-//     document.write(`<button onClick="changeColor(${i+1})">Button</button>`)
-// }
-// function changeColor(vitri) {
-//     console.log(vitri);//print
-//     window.alert(vitri);
-// }
+// How to randomize (shuffle) a JavaScript array?
+//https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
-let boxParent = document.getElementById("boxParent");
+//  Making different sizes of grids and want to change the size of them once user choose an option
+//https://stackoverflow.com/questions/69125664/making-different-sizes-of-grids-and-want-to-change-the-size-of-them-once-user-ch
 
+// HTML DOM Element className
+//https://www.w3schools.com/jsref/prop_html_classname.asp
+// How can I change an element's class with JavaScript?
+//https://stackoverflow.com/questions/195951/how-can-i-change-an-elements-class-with-javascript
+
+//STEP 1: Khởi tạo mảng chạy từ 1 đến 64
 var lists = [];
 for (let i = 0; i < 64; i++) {
     lists.push(i+1);
 }
-const randoms = shuffle(lists);
+
+//STEP 1.2: Method Xử lí dữ liệu mảng random giá trị
 function shuffle(array) {
     let currentIndex = array.length,  randomIndex;
 
@@ -31,6 +34,10 @@ function shuffle(array) {
     return array;
 }
 
+//STEP 1.3: Gọi Xử lí dữ liệu mảng random giá trị
+const randoms = shuffle(lists);
+
+//STEP 2: Viết phương thức vẽ bàn cờ 
 function creategrid() {
     var vitri = 0;
     // Create grid from select value
@@ -48,14 +55,10 @@ function creategrid() {
     }
 }
 
-function change() {
-    // Clear all content inside boxParent and create grid again
-    boxParent.innerHTML = "";
-    creategrid();
-}
-
+//STEP 3: Gọi phương thức vẽ bàn cờ 
 creategrid();
 
+//STEP 4: Xử lí action khi nhấn vào giá trị trên bàn cờ
 var before = 0;
 function changeColor(click) {
     console.log("before",before);//print
@@ -66,7 +69,7 @@ function changeColor(click) {
         before = click;
         console.log(" > before",before);//print
     }else{
-    //     element.className = "myStyle";
+        element.className = "myStyle";
     //     // window.alert("Chọn sai số nhấn không liền kề "+ before);
     }
 }
