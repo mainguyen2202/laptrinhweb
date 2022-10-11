@@ -1,0 +1,53 @@
+body{
+    width: 1200px;
+    text-align: left;
+    border: 4px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container{
+    width: 1190px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 4px;
+
+}
+#container header{
+    height: 70px;
+    border: 2px solid #4e4e4e;
+    background: #a5a5a7;
+
+
+}
+
+
+#container #main{
+    overflow: auto;
+}
+#container #main #left-menu{
+    width: 300px;
+    border: 2px solid #4e4e4e;
+    float: left;
+    height: 200px;
+    background: #f3f38d;
+    margin-top: 2px;
+
+}
+
+#container #main #content{
+    width: 880px;
+    border: 2px solid #4e4e4e;
+    float: right;
+    height: 200px;
+    margin-top: 2px;
+}
+
+#container footer{
+    text-align: center;
+    height: 50px;
+    border: 2px solid #4e4e4e;
+    background: #a5a5a7;
+    margin-top: 2px;
+}
